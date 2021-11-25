@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Main page</title>
+<link rel="shortcut icon" href="images/logo_01.png">
+<link rel="stylesheet" href="css/main before login.css">
+
+<style>
+
+a, a:visited {
+	color: #E54028;
+	text-decoration: none;
+}
+a:hover {
+	color: #c22d18;
+	cursor: pointer;
+}
+*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			height: 6000px;
+		}
+		.lift-nav{
+			position: fixed;
+			top: 100px;
+			left: 30px;
+			display: none;
+		}
+		.lift-nav li{
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			color: #fff;
+			padding: 10px 10px;
+			margin-bottom: 10px;
+			background: skyblue;
+			cursor: pointer;
+		}
+
+		.lift-nav li.current{
+			background:#fb0000;
+		}
+
+		/*.t1,.t2,.t3,.t4,.t5,.t6{
+			width: 800px;
+			height: 400px;
+			text-align: center;
+			line-height: 400px;
+			background: skyblue;
+			margin: 100px auto;
+			font-size: 30px;
+			color: #fff;
+		}
+		.t1{
+			margin-top: 200px;
+		}
+		.t2{
+			background: pink;
+		}
+		.t3{
+			background: tomato;
+		}
+		.t4{
+			background: grey;
+		}
+		.t5{
+			background: yellow;
+		}
+		.t6{
+			background: seagreen;
+		}*/
+
+
+</style>
+
+
+<!--Required libraries-->
+<script src="js/jquery-v1.10.2.min.js" type="text/javascript"></script>
+<script src="js/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+<!--Include flickerplate-->
+<link href="css/flickerplate.css"  type="text/css" rel="stylesheet">
+<script src="js/flickerplate.min.js" type="text/javascript"></script>
+<!--Execute flickerplate-->
+<script>
+$(document).ready(function(){
+	$('.flicker-example').flicker();
+});
+</script>
+</head>
+
+<body>
+<!--页头-->
+<div id="headCon">
+	<div>
+    	<p>Main page</p>
+        <ol>
+            <li><a href="login.html">Login</a></li>
+
+            <a href="register.html">register</a>
+        </ol>
+    </div>
+    <ul>
+    	<a href="#"><li></li></a>
+        <ol>
+		
+            <li><a href="Pick of the week.html" class="first">Pick of the week</a></li>
+            <li><a href="Man’s wear.html">Man’s wear</a></li>
+            <li><a href="Woman’s wea.html">Woman’s wear</a></li>
+            <li><a href="Children’s wear.html">Children’s wear</a></li>
+            <li><a href="Maternal & infant.html">Maternal & infant</a></li>
+            <li class="search">
+                <input value="Man's wear"><button></button>
+            </li>
+        </ol>
+    </ul>
+    <div class="flicker-example" data-block-text="false">
+        <ul>
+            <li data-background="images/1.png">
+                
+            </li>
+            <li data-background="images/2.png">
+                
+            </li>
+            <li data-background="images/3.png">
+                
+            </li>
+        </ul>
+	</div>
+</div>
+
+<div id="contentCon">
+    <ol>
+    	<li>
+        	<a href="list.html" class="c1"></a>
+            <p>Clothes 1</p>
+            <div>
+            	<span>Recommend</span>
+
+            </div>
+        </li>
+        <li class="pic02">
+        	<a href="list.html" class="c2"></a>
+            <p>Man's wear</p>
+            <div>
+            	<span>Recommend</span>
+
+            </div>
+        </li>
+        <li class="pic03">
+        	<a href="list.html" class="c3"></a>
+            <p>Man's wear</p>
+            <div>
+            	<span>Recommend</span>
+
+            </div>
+        </li>
+        <li class="pic04">
+        	<a href="list.html" class="c4"></a>
+            <p>Man's wear</p>
+            <div>
+            	<span>Recommend</span>
+            </div>
+        </li>
+    </ol>
+    <div class="t1">
+        <ol>
+        	<li class="pict1">
+            	<a href="list.html"></a>
+            	<div>Man's wear</div>
+            </li>
+            <li class="pict2">
+            	<a href="list.html"></a>
+                <div class="container">
+                    <a href="list.html" class="pict2_2"><p>Man's wear</p></a>
+                    <a href="list.html" class="pict2_2"><p>Man's wear</p></a>
+                </div>
+            </li>
+            <li class="pict3">
+            	<a href="list.html"></a>
+            	<div>Man's wear</div>
+            </li>
+        </ol>
+    </div>
+
+
+
+</div>
+<!--页脚-->
+<div id="footCon">
+    <li>
+        <p>Copyright © 2021 .All Rights Reserved.</p>
+        <span>Copyright xxxxxxxxx</span>
+    </li>
+</div>
+</body>
+</html>

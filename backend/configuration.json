@@ -1,0 +1,29 @@
+{
+    "pyrebaseconfig":[
+        {
+            "apiKey": "AIzaSyB58Gu-fgBnB_26D94Gw1aCk2tXtt155C8",
+		    "authDomain": "fantistic-44830.firebaseapp.com",
+			"databaseURL": "https://fantistic-44830-default-rtdb.firebaseio.com/",
+		    "projectId": "fantistic-44830",
+		    "storageBucket": "fantistic-44830.appspot.com",
+		    "messagingSenderId": "670552776376",
+		    "appId": "1:670552776376:web:49a10898c0e643a42c5e4d",
+		    "measurementId": "G-S36PVM25M9"
+        }
+    ],
+    "fireadminconfig":[    
+        {
+            "apiKey": "AIzaSyB58Gu-fgBnB_26D94Gw1aCk2tXtt155C8",
+		    "authDomain": "fantistic-44830.firebaseapp.com",
+			"databaseURL": "https://fantistic-44830-default-rtdb.firebaseio.com/",
+		    "projectId": "fantistic-44830",
+		    "storageBucket": "fantistic-44830.appspot.com",
+		    "messagingSenderId": "670552776376",
+		    "appId": "1:670552776376:web:49a10898c0e643a42c5e4d",
+		    "measurementId": "G-S36PVM25M9"
+        },
+        {
+            "adk": "service_account.json"
+        }
+    ]
+}

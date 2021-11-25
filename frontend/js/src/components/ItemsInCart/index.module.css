@@ -1,0 +1,168 @@
+.cartBox .order_content{
+    border-top: 1px solid #ccc;
+}
+.cartBox .order_content a{
+    display: block;
+}
+.order_lists{
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.order_lists:last-child{
+    border-bottom: none;
+}
+.order_lists li{
+    float: left;
+    height: 100%;
+}
+
+.order_lists .list_chk{
+    position: relative;
+    width: 50px;
+}
+.order_lists .list_chk input[type="checkbox"]{
+    position: absolute;
+    z-index: 0;
+    left: -20px;
+    top: -20px;
+}
+.order_lists .list_chk label{
+    margin: 50px 0 0 24px;
+}
+
+.order_lists .list_con{
+    width: 342px;
+}
+.order_lists .list_con .list_img{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    float: left;
+}
+.order_lists .list_con .list_img img{
+    width: 100%;
+    vertical-align: top;
+}
+.order_lists .list_con .list_text{
+    margin: 50px 0 0 30px;
+    line-height: 18px;
+    width: 200px;
+    float: left;
+}
+.order_lists .list_con .list_text a{
+    color: #3c3c3c;
+}
+.order_lists .list_con .list_text a:hover{
+    color: #e76d40;
+    text-decoration: underline;
+}
+
+.order_lists .list_info{
+    width: 252px;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+.order_lists .list_info p{
+    color: #4c4c4c;
+    line-height: 32px;
+    margin-left: 35px;
+}
+.order_lists .list_price{
+    width: 130px;
+}
+.order_lists .list_price .price{
+    margin-top: 50px;
+    line-height: 18px;
+    color: #4c4c4c;
+}
+.order_lists .list_amount{
+    width: 120px;
+}
+.order_lists .list_amount .amount_box{
+    margin-top: 50px;
+    width: 77px;
+    height: 25px;
+    position: relative;
+}
+.order_lists .list_amount .amount_box input{
+    width: 39px;
+    height: 15px;
+    line-height: 15px;
+    border:none;
+    outline:none;
+    color: #4c4c4c;
+    text-align: center;
+    padding: 4px 0;
+    z-index: 2;
+    position: absolute;
+    left: 18px;
+    float: left;
+}
+.order_lists .list_amount .amount_box a{
+    float: left;
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    position: absolute;
+    top:0;
+}
+.order_lists .list_amount .amount_box a:hover{
+    border-color: #e76d40;
+    text-decoration: none;
+    color: #e76d40;
+    z-index: 3;
+}
+
+.order_lists .list_amount .amount_box .reduce{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    border:1px solid #b8b8b8;
+    line-height:20px;
+    left: -10px;
+}
+
+.order_lists .list_amount .amount_box .reSty{
+    color: #4c4c4c;
+}
+.order_lists .list_amount .amount_box .reSty:hover{
+    border-right: none;
+    border-color: #e76d40;
+    text-decoration: none;
+    color: #cbcbcb;
+}
+
+.order_lists .list_amount .amount_box .plus{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    border:1px solid #b8b8b8;
+    line-height:20px;
+    right: -10px;
+}
+
+
+.order_lists .list_sum{
+    margin-left:20px;
+    width: 120px;
+}
+.order_lists .list_sum .sum_price{
+    margin-left:10px;
+    line-height: 18px;
+    margin-top: 50px;
+    font:"Times New Roman";
+    font-size:18px;
+    color: #e76d40;
+}
+.order_lists .list_op{
+    width: 164px;
+}
+.order_lists .list_op .del{
+    margin-top: 50px;
+    line-height: 18px;
+}

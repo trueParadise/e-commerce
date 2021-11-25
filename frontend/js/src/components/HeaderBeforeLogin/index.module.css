@@ -1,0 +1,202 @@
+/**{margin:0px;padding:0px;list-style:none;text-decoration:none;font-family:"Times New Roman";font-weight:normal;}*/
+/*!*headcon*!*/
+/*.login_wrap{*/
+/*	background: url(../../images/back.png) no-repeat center;}*/
+/*.headCon{*/
+/*	min-width:1200px;*/
+/*	background:#000000;}*/
+/*.headCon>div{*/
+/*	width:100%;*/
+/*	margin:auto;*/
+/*	margin-top:10px;*/
+/*	overflow:hidden;}*/
+/*.headCon>div>p{*/
+/*	text-align:left;*/
+/*	font-size:14px;*/
+/*	color:#999;}*/
+/*.headCon>div>ol{*/
+/*	width:200px;*/
+/*	float:right;*/
+/*	overflow:hidden;}*/
+/*.headCon>div>ol>li{*/
+/*	overflow:hidden;*/
+/*	float:left;}*/
+/*.headCon>div>ol>li>a{*/
+/*	font-size:14px;*/
+/*	color:#999;*/
+/*	float:left;*/
+/*	margin-right:10px;*/
+/*	}*/
+/*.headCon>div>ol>li>a:hover{*/
+/*	color:#e76d40;}*/
+/*.headCon>div>ol>a{*/
+/*	width:76px;*/
+/*	height:14px;*/
+/*	text-align:center;*/
+/*	line-height:14px;*/
+/*	float:left;*/
+/*	font-size:14px;*/
+/*	color:rgb(255, 254, 254);*/
+/*	border-left:1px solid #a1a1a1;*/
+/*	border-right:1px solid #a1a1a1;*/
+/*	margin-top:3px;}*/
+/*.headCon>div>ol>a:hover{*/
+/*	color:#f60;}*/
+/*.headCon>ul{*/
+/*	width:1200px;*/
+/*	margin:auto;*/
+/*	overflow:hidden;*/
+/*	margin-top:30px;}*/
+/*.headCon>ul>a{*/
+/*	float:right;}*/
+
+/*.headCon>ul>ol{*/
+/*	position: relative;*/
+/*	float:left;*/
+/*	overflow:hidden;*/
+/*	margin-left:180px;}*/
+/*.headCon>ul>ol>li{*/
+/*	padding-left: 40px;*/
+/*	float:left;*/
+/*	margin-top:25px;*/
+/*	margin-right:40px;*/
+/*	line-height: 40px;*/
+/*    text-align: center;}*/
+/*.headCon>ul>ol>li>a{*/
+/*	font-size:20px;*/
+/*	color:#ffffff;}*/
+/*.headCon>ul>ol>li>a:hover{*/
+/*	color:#e76d40;}*/
+/*.headCon>ul>ol>li>.first{*/
+/*	color:#e76d40;}*/
+/*headCon>ul>ol>p{*/
+/*	height: 41px;*/
+/*	position: relative;*/
+/*	!*float:center;*!*/
+/*	width:900px;*/
+/*	margin-top:10px;*/
+/*	outline:none;*/
+/*	border-radius:20px;*/
+/*	font-size:20px;}*/
+/*.headCon>ul>ol>p>input{*/
+/*	width:1018px;*/
+/*	height:40px;*/
+/*	border:1px solid #e76d40;*/
+/*	border-radius:20px;*/
+/*	outline:none;*/
+/*	color:rgb(0, 0, 0);*/
+/*	padding-left:16px;*/
+/*	font-size:18px;}*/
+/*.headCon>ul>ol>p>button{*/
+/*	width:29px;*/
+/*	height:29px;*/
+/*	background:url(../../images/sprite.png) no-repeat -115px 0px;*/
+/*	outline:none;*/
+/*	border:none;*/
+/*	vertical-align:middle;*/
+/*	margin-left:-60px;}*/
+
+*{margin:0px;padding:0px;list-style:none;text-decoration:none;font-family:"Times New Roman";font-weight:normal;}
+/*headcon*/
+.login_wrap{
+	background: url(../../images/back.png) no-repeat center;}
+.headCon{
+	min-width:1200px;
+	background:#000000;}
+.headCon>div{
+	width:100%;
+	margin:auto;
+	margin-top:10px;
+	overflow:hidden;}
+.headCon>div>p{
+	text-align:left;
+	font-size:14px;
+	color:#999;}
+.headCon>div>ol{
+	width:200px;
+	float:right;
+	overflow:hidden;}
+.headCon>div>ol>li{
+	overflow:hidden;
+	float:left;}
+.headCon>div>ol>li>a{
+	font-size:14px;
+	color:#999;
+	float:left;
+	margin-right:10px;
+	}
+.headCon>div>ol>li>a:hover{
+	color:#e76d40;}
+.headCon>div>ol>a{
+	width:76px;
+	height:14px;
+	text-align:center;
+	line-height:14px;
+	float:left;
+	font-size:14px;
+	color:rgb(255, 254, 254);
+	border-left:1px solid #a1a1a1;
+	border-right:1px solid #a1a1a1;
+	margin-top:3px;}
+.headCon>div>ol>a:hover{
+	color:#f60;}
+.headCon>ul{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	margin-top:30px;}
+.headCon>ul>ol{
+	position: relative;
+	float:left;
+	overflow:hidden;
+	width: 80%;}
+.headCon>ul>a{
+	width: 20%;
+	float:left;}
+.headCon>ul>a>li{
+	width: 100%;
+	word-wrap: break-word;
+	word-break: normal;
+	font-family:'Courier New', Courier, monospace;
+	color: rgb(255, 255, 255);
+	font-size: 45px;}
+.headCon>ul>ol>li{
+	padding-left: 40px;
+	float:left;
+	margin-top:25px;
+	margin-right:40px;
+	line-height: 40px;
+    text-align: center;}
+.headCon>ul>ol>li>a{
+	font-size:20px;
+	color:#ffffff;}
+.headCon>ul>ol>li>a:hover{
+	color:#e76d40;}
+.headCon>ul>ol>li>.first{
+	color:#e76d40;}
+headCon>ul>ol>p{
+	height: 41px;
+	position: relative;
+	/*float:center;*/
+	width:900px;
+	margin-top:10px;
+	outline:none;
+	border-radius:20px;
+	font-size:20px;}
+.headCon>ul>ol>p>input{
+	width:1018px;
+	height:40px;
+	border:1px solid #e76d40;
+	border-radius:20px;
+	outline:none;
+	color:rgb(0, 0, 0);
+	padding-left:16px;
+	font-size:18px;}
+.headCon>ul>ol>p>button{
+	width:29px;
+	height:29px;
+	background:url(../../images/sprite.png) no-repeat -115px 0px;
+	outline:none;
+	border:none;
+	vertical-align:middle;
+	margin-left:-60px;}
